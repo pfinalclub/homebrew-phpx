@@ -6,10 +6,10 @@ class Phpx < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/pfinalclub/phpx/releases/download/v0.1.0/phpx-macos-x86_64"
-    sha256 "dca45daeb618ef99fbea7242da00c5707fbf4b3877cf3d818b1a5b7ad1257f88"
+    sha256 "846a85f6c06add72c1899fefcbeb5edf7ec9e9e4a2eca0fc4701b4bfde60a7b1"
   elsif Hardware::CPU.arm?
     url "https://github.com/pfinalclub/phpx/releases/download/v0.1.0/phpx-macos-aarch64"
-    sha256 "7e0904bbec28cedd611ad3e3480379cb23fc61b430d7cce436d1bd414014836a"
+    sha256 "sha256:2ec783b86108c0d79b66486fa25b26c4f15cb14e0e4c7cb2b12185533bd91d3d"
   end
 
   def install
